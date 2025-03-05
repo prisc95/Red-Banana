@@ -1,4 +1,6 @@
-import domReady from '@roots/sage/client/dom-ready';
+import './pageblocks/products-swiper';
+import domReady from '@roots/sage/client/dom-ready'; 
+
 
 /**
  * Application entrypoint

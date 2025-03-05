@@ -9,5 +9,7 @@
     {{-- @include('partials.page-header') --}}
     {{-- @include('partials.content-page') --}}
     @include('partials.pageblocks.hero')
+    @include('partials.pageblocks.photo-grid')
+    @include('partials.pageblocks.product-swiper')
   @endwhile
 @endsection

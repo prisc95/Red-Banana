@@ -1,4 +1,8 @@
+@import "pageblocks/menu.scss";
 @import "pageblocks/hero.scss";
+@import "pageblocks/photo-grid.scss";
+@import "pageblocks/product-swiper.scss";
+
 
 @tailwind base;
 @tailwind components;
