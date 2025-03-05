@@ -1,0 +1,98 @@
+section.photo-grid {
+    position: relative;
+    width: 100%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .photo-grid-container {
+      width: 90%;
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+  
+      h2 {
+        font-family: Poppins;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 29px;
+    }
+  }
+  
+  
+  
+  .photo-grid-gallery {
+      display: grid;
+      width: 100%;
+      height: 100%;
+      grid-gap: 10px;
+      grid-template-rows: repeat(4, 20vh); 
+      grid-template-columns: repeat(6, 14vw);
+  
+      .row-2 {
+        grid-row: span 2;
+    }
+    
+    .col-2 {
+        grid-column: span 2;
+    }
+    
+    .row-3 {
+        grid-row: span 3;
+    }
+    
+    .col-3 {
+        grid-column: span 3;
+    }
+    
+    .row-1 {
+        grid-row: span 1;
+    }
+    
+    #item-1 {
+        background-image: linear-gradient(0deg, rgba(0,0,0,0.3), rgba(0,0,0,0.4)), url(/images/Photo-grid-item-1.png);
+    }
+    
+    #item-2 {
+        background-image: linear-gradient(0deg, rgba(0,0,0,0.3), rgba(0,0,0,0.4)), url(/images/Photo-grid-item-2.png);
+    }
+    
+    #item-3 {
+        background-image: linear-gradient(0deg, rgba(0,0,0,0.3), rgba(0,0,0,0.4)), url(/images/Photo-grid-item-3.png);
+    }
+    
+    #item-4 {
+        background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.4)), url(/images/Photo-grid-item-4.png);
+        background-position: 80% 20%;
+        width: 100%;
+        height: auto;
+    }
+    
+    #item-5 {
+        background-image: linear-gradient(0deg, rgba(0,0,0,0.1), rgba(0,0,0,0.3)), url(/images/Photo-grid-item-5.png);
+    }
+    
+    #item-6 {
+        background-image: linear-gradient(0deg, rgba(0,0,0,0.1), rgba(0,0,0,0.3)), url(/images/Photo-grid-item-6.png);
+    }
+  
+    .photo-grid-images {
+      display: grid;
+      background-size: cover;
+      border-radius: 10px;
+  
+      align-content: end;
+      padding: 10px;
+  
+      font-family: Poppins;
+      font-size: 28px;
+      font-weight: 600;
+      line-height: 43px;
+      text-align: left;
+      color: #FFFFFF; 
+    }
+  } 
+  
+  
