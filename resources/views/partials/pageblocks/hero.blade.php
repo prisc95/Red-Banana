@@ -1,4 +1,5 @@
 <section class="hero">
+
     <div class="hero-container">
         <div class="hero-text-container">
             <h1>Bestel eenvoudig de tofste accessoires voor jouw smartphone</h1>
@@ -6,4 +7,5 @@
             <a href="#accesoires">Bekijk alle accessoires</a>
         </div>
     </div>
+    
 </section>
