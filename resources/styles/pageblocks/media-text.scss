@@ -12,15 +12,16 @@ section.media-text {
     height: 90%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: center;
 
   .media {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
     flex-basis: 50%;
     height: 100%;
+  
 
     .img1{
         width: 80%;
@@ -48,8 +49,11 @@ section.media-text {
     flex-direction: column;
     justify-content: center;
     gap: 25px;
-    flex-basis: 40%;
+    flex-basis: 50%;
     height: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+
 
     h2 {
         font-family: "Poppins", sans-serif;
