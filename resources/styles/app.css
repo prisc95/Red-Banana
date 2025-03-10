@@ -5,6 +5,7 @@
 @import "pageblocks/review-swiper.scss";
 @import "pageblocks/media-text.scss";
 @import "pageblocks/blog-swiper.scss";
+@import "pageblocks/footer.scss";
 
 
 @tailwind base;
