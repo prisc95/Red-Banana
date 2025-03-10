@@ -1,16 +1,16 @@
 import Swiper from 'swiper/bundle'; 
 
-var swiper = new Swiper(".mySwiper", {
+var swiper1 = new Swiper(".productSwiper", {
     slidesPerView: 1,
     spaceBetween: 10,
     scrollbar: {
-        el: ".swiper-scrollbar",
-        draggable: true,
-      },
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
+      el: ".swiper-products-scrollbar",
+      draggable: true,
+    },
+    navigation: {
+      nextEl: ".products-scroll-icon-right",
+      prevEl: ".products-scroll-icon-left",
+    },
     breakpoints: {
       640: {
         slidesPerView: 2,
@@ -26,4 +26,3 @@ var swiper = new Swiper(".mySwiper", {
       },
     },
   });
-

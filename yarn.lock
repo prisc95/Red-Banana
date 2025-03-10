@@ -9342,6 +9342,7 @@ __metadata:
     "@roots/bud": "npm:6.20.0"
     "@roots/bud-tailwindcss": "npm:6.20.0"
     "@roots/sage": "npm:6.20.0"
+    swiper: "npm:^11.2.5"
   languageName: unknown
   linkType: soft
 
@@ -9904,6 +9905,13 @@ __metadata:
     "@swc/core": ^1.2.147
     webpack: ">=2"
   checksum: 10c0/cb3f9b116fbd292b881e804a4fe66cd6d543a7de2572f5a68e067e4780ee2d59a8da87a90736ba6e8e286e4368c98214ae3486b1b872080292814e5d3062f09c
+  languageName: node
+  linkType: hard
+
+"swiper@npm:^11.2.5":
+  version: 11.2.5
+  resolution: "swiper@npm:11.2.5"
+  checksum: 10c0/dd1e598a810ee4e38316dc6bb80d27be374faf78385f44669f24c46427929d8532e96fc52fb45b8c9edb956074408ce14208355ff8410d68a71e5f8f39287da1
   languageName: node
   linkType: hard
 

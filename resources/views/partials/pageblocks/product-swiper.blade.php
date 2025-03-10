@@ -3,7 +3,7 @@
 
 <section class="product-swiper">
     <div class="swiper-container">
-    <div class="swiper mySwiper">
+    <div class="swiper mySwiper productSwiper">
         <div class="swiper-wrapper">
 
           <div class="swiper-slide">
@@ -106,13 +106,15 @@
           </div>
         
         </div>
-        <div class="scroll-container">
-            <div class="swiper-button-next"></div>
-            <div class="swiper-scrollbar"></div>
-            <div class="swiper-button-prev"></div>
-            </div>
+      
       </div>
 
     </div>
+
+    <div class="scroll-container">
+      <div class="products-scroll-icon-left"><i class="fa-solid fa-arrow-left"></i></div>
+      <div class="swiper-products-scrollbar"></div>
+      <div class="products-scroll-icon-right"><i class="fa-solid fa-arrow-right"></i></div>
+      </div>
 
 </section>
