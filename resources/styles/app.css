@@ -2,6 +2,7 @@
 @import "pageblocks/hero.scss";
 @import "pageblocks/photo-grid.scss";
 @import "pageblocks/product-swiper.scss";
+@import "pageblocks/slider.scss";
 
 
 @tailwind base;

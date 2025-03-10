@@ -1,4 +1,5 @@
 import './pageblocks/products-swiper';
+import './pageblocks/review-swiper';
 import domReady from '@roots/sage/client/dom-ready'; 
 
 

@@ -11,5 +11,6 @@
     @include('partials.pageblocks.hero')
     @include('partials.pageblocks.photo-grid')
     @include('partials.pageblocks.product-swiper')
+    @include('partials.pageblocks.slider')
   @endwhile
 @endsection
