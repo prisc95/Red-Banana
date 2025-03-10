@@ -3,6 +3,7 @@
 @import "pageblocks/photo-grid.scss";
 @import "pageblocks/product-swiper.scss";
 @import "pageblocks/slider.scss";
+@import "pageblocks/media-text.scss";
 
 
 @tailwind base;

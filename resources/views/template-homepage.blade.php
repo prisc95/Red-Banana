@@ -12,5 +12,6 @@
     @include('partials.pageblocks.photo-grid')
     @include('partials.pageblocks.product-swiper')
     @include('partials.pageblocks.slider')
+    @include('partials.pageblocks.media-text')
   @endwhile
 @endsection
