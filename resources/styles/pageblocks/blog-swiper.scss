@@ -1,0 +1,123 @@
+@import 'swiper/swiper-bundle.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+section.swiper-blog {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    overflow: hidden;
+
+    .container{
+        width: 100%;
+        height: 90%;
+
+        position: relative;
+        left: 5%;
+
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        
+    h1 {
+        font-family: "Poppins", sans-serif;
+        color: #000000;
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 29px;
+        text-align: left;
+    }
+
+    .swiper-wrapper {
+        display: flex;
+        width: 100% !important;
+        height: 60% !important;
+}
+
+  .swiper-slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 28% !important;
+    height: 90% !important;
+    margin-right: 10px !important;
+    background-color: #E6EDEC;
+    border-radius: 10px;
+    cursor: pointer;
+
+    img {
+        width: 100%;
+        height: 65%;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+      }
+
+      
+ p {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+a {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    padding-left: 20px;
+    padding-bottom: 20px;
+
+
+    color: #F15932;
+    text-decoration: none;
+  }
+  }
+
+
+.blog-scroll-container {
+  width: 80% !important;
+  height: 20% !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+.blog-scroll-icon-left,
+.blog-scroll-icon-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  background-color: #F0F0F0;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.fa-arrow-left,
+.fa-arrow-right {
+  width: 25%;
+  height: 25%;
+}
+
+.swiper-blog-scrollbar {
+    width: 75%;
+    height: 2px;
+    background-color: #E0E0E0;
+    }
+  
+    .swiper-scrollbar-drag {
+      background: #FE3E31;
+      border-radius: 10px;
+    }
+}
+
+
+    }
+}

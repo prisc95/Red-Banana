@@ -13,5 +13,6 @@
     @include('partials.pageblocks.product-swiper')
     @include('partials.pageblocks.slider')
     @include('partials.pageblocks.media-text')
+    @include('partials.pageblocks.blog-swiper')
   @endwhile
 @endsection
