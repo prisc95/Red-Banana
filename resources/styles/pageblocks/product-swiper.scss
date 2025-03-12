@@ -6,11 +6,12 @@ section.product-swiper {
     position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    height: 100vh;
     width: 100%;
-    
+    height: 100vh;
+
+
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
     font-size: 14px;
     color: #000;
@@ -20,9 +21,10 @@ section.product-swiper {
     
     .swiper-container{
         width: 100%;
-        height: 90%;
+        height: 80%;
 
-        position: absolute;
+        position: relative;
+        top: 5%;
         left: 5%;
 
         .swiper {
@@ -36,7 +38,7 @@ section.product-swiper {
             align-items: flex-start;
             overflow: hidden;
             height: 80%;
-            width: 23% !important;
+            width: 20% !important;
     
             background-color: white;
             box-shadow: 0px 5px 10px #0000001A;
@@ -73,8 +75,20 @@ section.product-swiper {
                 cursor: pointer;
             
               .fa-heart {
+                display: flex;
                 width: 14px;
                 height: 14px;
+
+                &:hover {
+                  color: #FE3E31;
+                }
+              }
+
+              .fa-solid {
+                display: flex;
+                width: 14px;
+                height: 14px;
+                color: #FE3E31;
               }
             }
           }
@@ -161,6 +175,15 @@ section.product-swiper {
             display: flex;
             justify-content: center;
             align-items: center;
+
+            &:hover{
+              background-color: white;
+              border: 1px solid #FE3E31;
+
+              .fa-bag-shopping{
+                color: #FE3E31;
+              }
+            }
         
             cursor: pointer;
             background-color: #FE3E31;
@@ -171,6 +194,7 @@ section.product-swiper {
           }
         
           .fa-bag-shopping {
+            color: white;
             width: 14px;
             height: 16px;
           }
@@ -182,7 +206,7 @@ section.product-swiper {
     
 
 .scroll-container {
-  position: absolute;
+  position: relative;
   bottom: 0;
   display: flex;
   flex-direction: row;
@@ -203,6 +227,10 @@ section.product-swiper {
   border-radius: 50%;
   cursor: pointer;
   z-index: 999;
+
+  &:hover{
+    box-shadow: 0 0 0 3px #fa938c;
+  }
 
   .fa-arrow-left,
 .fa-arrow-right {

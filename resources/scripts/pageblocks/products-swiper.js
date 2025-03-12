@@ -26,3 +26,20 @@ var swiper1 = new Swiper(".productSwiper", {
       },
     },
   });
+
+
+function likeProduct() { 
+  this.classList.toggle("fa-regular");
+  this.classList.toggle("fa-solid")
+  };
+
+
+const likeButtons = document.getElementsByClassName("fa-heart");
+
+for (const button of likeButtons){
+  button.addEventListener("click", likeProduct);
+}
+
+
+
+
