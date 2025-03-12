@@ -54,7 +54,14 @@ section.menu {
         border-radius: 10px;
         border-color: transparent;
         background-color: #FE3E31;
+        color: #ffffff;
         cursor: pointer;
+
+        &:hover{
+          background-color: white;
+          color: #F15932;
+          border: 1px solid #F15932;
+        }
     }
 
     .nav-top-center > input {

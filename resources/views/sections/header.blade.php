@@ -12,7 +12,7 @@
         </div>
         <div class="nav-top-center">
             <input type="text" placeholder="Waar ben je naar op zoek?" name="searchbar">
-            <button type="submit"><i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i></button>
+            <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
         </div>
         <div class="nav-top-right">
             <div class="nav-top-right-item-1">
