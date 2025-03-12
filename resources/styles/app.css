@@ -1,3 +1,4 @@
+@import "pageblocks/base.scss";
 @import "pageblocks/menu.scss";
 @import "pageblocks/hero.scss";
 @import "pageblocks/photo-grid.scss";
