@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+
+
 section.menu {
     width: 100%;
     position: relative;
@@ -7,7 +9,8 @@ section.menu {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-  }
+    
+  
   
   .nav-top-container {
       width: 90%;
@@ -23,6 +26,10 @@ section.menu {
     width: 20%;
     display: flex;
     justify-content: flex-start;
+
+    img {
+      width: 70%;
+    }
    
   }
   
@@ -83,6 +90,10 @@ section.menu {
               font-family: "Poppins", sans-serif;
               font-size: 10px;
               font-weight: 400;
+
+              &:hover {
+                font-weight: 800;
+              }
        
           }
   
@@ -125,6 +136,10 @@ section.menu {
         font-weight: 500;
         line-height: 24px;
         text-align: center;
+
+        &:hover {
+          color: #FE3E31;
+        }
     }
   
       .nav-bottom-left {
@@ -140,3 +155,4 @@ section.menu {
           gap: 25px;
       }
   }
+}
