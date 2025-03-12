@@ -14,13 +14,13 @@
     </div>
     <div class="openingstijden">
         <h2>Openingtijden</h2>
-        <p>Maandag:	09:00 - 17:00</p>
-        <p>Dinsdag: 09:00 - 17:00</p>
-        <p>Woensdag: 09:00 - 17:00</p>
-        <p>Donderdag: 09:00 - 17:00</p>
-        <p>Vrijdag:	09:00 - 17:00</p>
-        <p>Zaterdag: 09:00 - 17:00</p>
-        <p>Zondag: GESLOTEN</p>
+        <p>Maandag:	<span>09:00 - 17:00<span></p>
+        <p>Dinsdag: <span>09:00 - 17:00<span></p>
+        <p>Woensdag: <span>09:00 - 17:00<span></p>
+        <p>Donderdag: <span>09:00 - 17:00<span></p>
+        <p>Vrijdag:	<span>09:00 - 17:00<span></p>
+        <p>Zaterdag: <span>09:00 - 17:00<span></p>
+        <p>Zondag: <span>09:00 - 17:00<span></p>
     </div>
     <div class="klantenservice">
       <h2>Klantenservice</h2>
