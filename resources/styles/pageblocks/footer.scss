@@ -83,7 +83,7 @@ section.footer{
         font-weight: 400;
         line-height: 24px;
         text-align: center;
-    
+
       }
     
       button {
@@ -100,6 +100,12 @@ section.footer{
         text-align: center;
         color: #FFFFFF;
         z-index: 1;
+
+        &:hover{
+          background-color: white;
+          color: #F15932;
+          border: 1px solid #F15932;
+        }
       }
     }
     
