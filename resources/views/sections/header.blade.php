@@ -8,7 +8,7 @@
   <section class="menu">
     <div class="nav-top-container">
         <div class="nav-top-left">
-            <img src="" alt="Logo">
+            <img src="wp-content/themes/sage/resources/images/Red-Banana-logo.png" alt="Logo">
         </div>
         <div class="nav-top-center">
             <input type="text" placeholder="Waar ben je naar op zoek?" name="searchbar">
