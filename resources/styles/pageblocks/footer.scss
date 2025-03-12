@@ -60,6 +60,12 @@ section.footer{
             flex-direction: row;
             gap: 75px;
         }
+
+        a {
+          &:hover {
+            font-weight: 500;
+          }
+        }
   }
 
   .nieuwsbrief-inner {
