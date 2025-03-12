@@ -1,14 +1,16 @@
 section.photo-grid {
     position: relative;
     width: 100%;
-    margin-top: 3%;
-    margin-bottom: 3%;
+    height: 100vh;
     display: flex;
     justify-content: center;
-  }
-  
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+   
   .photo-grid-container {
       width: 90%;
+      height: 100%;
       display: flex;
       flex-direction: column;
       gap: 25px;
@@ -94,5 +96,6 @@ section.photo-grid {
       color: #FFFFFF; 
     }
   } 
+}
   
   
