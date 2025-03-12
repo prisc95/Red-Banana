@@ -131,6 +131,7 @@ section.product-swiper {
             display: flex;
             flex-direction: column;
             justify-content: space-between;
+            padding-bottom: 5px;
     
         
           p {
@@ -147,7 +148,7 @@ section.product-swiper {
             flex-direction: row;
             justify-content: space-between;
             align-items: center;
-            padding-top: 5px;
+            padding-top: 10px;
           }
         
           #old-price {
@@ -175,6 +176,7 @@ section.product-swiper {
             display: flex;
             justify-content: center;
             align-items: center;
+           
 
             &:hover{
               background-color: white;
@@ -232,7 +234,8 @@ section.product-swiper {
     box-shadow: 0 0 0 3px #fa938c;
   }
 
-  .fa-arrow-left,
+  
+.fa-arrow-left,
 .fa-arrow-right {
   width: 25%;
   height: 25%;
@@ -242,7 +245,10 @@ section.product-swiper {
 
 
 
+
+
 .swiper-products-scrollbar {
+  display: flex !important;
   width: 75%;
   height: 2px;
   background-color: #E0E0E0;
