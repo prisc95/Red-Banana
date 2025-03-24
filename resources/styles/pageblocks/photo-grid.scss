@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 section.photo-grid {
     position: relative;
     width: 100%;
@@ -16,7 +18,7 @@ section.photo-grid {
       gap: 25px;
   
       h2 {
-        font-family: Poppins;
+        font-family: "Poppins", sans-serif;
         font-size: 28px;
         font-weight: 700;
         line-height: 29px;
@@ -88,7 +90,8 @@ section.photo-grid {
       align-content: end;
       padding: 10px;
   
-      font-family: Poppins;
+      p {
+      font-family: "Poppins", sans-serif;
       font-size: 28px;
       font-weight: 600;
       line-height: 43px;
@@ -97,5 +100,67 @@ section.photo-grid {
     }
   } 
 }
+}
+
+/*1920 x 1080 ->  */
+@media screen and (min-width: 1600px){
+
+}
+
+
+/*1440 x 900 ->  */
+/*1366 x 768 ->  */
+/*1280 x 720 ->  */
+@media screen and (min-width: 1280px) and (max-width: 1599px) {
+
+  
+
+}
+
+
+/*1024 x 768 iPad -> */
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+
+}
+
+
+/*768 x 1024 iPad -> */
+/*800 x 1280 Google Nexus -> */
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+    section.photo-grid {
+    .photo-grid-gallery {
+        
+      .photo-grid-images {
+
+        p {
+        font-family: "Poppins", sans-serif;
+        font-size: 24px;
+        line-height: 30px;
+        }
+      }
+    } 
+}
+}
+
+
+@media screen and (min-width: 640px) and (max-width: 767px){
+    section.photo-grid {
+        .photo-grid-gallery {
+            
+          .photo-grid-images {
+    
+            p {
+            font-family: "Poppins", sans-serif;
+            font-size: 24px;
+            line-height: 30px;
+            }
+          }
+        } 
+    }
+}
+
+
+
+@media screen and (min-width: 360px) and (max-width: 641px){}
   
   
