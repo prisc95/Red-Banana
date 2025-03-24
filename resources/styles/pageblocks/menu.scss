@@ -16,19 +16,20 @@ section.menu {
       width: 90%;
       display: flex;
       flex-direction: row;
-      justify-content: space-evenly;
+      justify-content: space-between;
       align-items: center;
       padding: 5px;
      
     
   
   .nav-top-left {
-    width: 20%;
     display: flex;
+    flex-basis: 20%;
     justify-content: flex-start;
+    height: 90%;
 
     img {
-      width: 70%;
+      object-fit: contain;
     }
    
   }
@@ -37,7 +38,7 @@ section.menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 60%;
+    flex-basis: 50%;
     border: solid 1px #f2f2f2;
     border-radius: 10px;
     background: #f2f2f2;
@@ -77,8 +78,8 @@ section.menu {
         
   
     .nav-top-right {
-        width: 20%;
         display: flex;
+        flex-basis: 20%;
         flex-direction: row;
         justify-content: flex-end;
         align-items: center;
@@ -153,6 +154,7 @@ section.menu {
           display: flex;
           flex-basis: 80%;
           justify-content: space-between;
+          align-items: center;
       }
       
       .nav-bottom-right {
@@ -163,3 +165,64 @@ section.menu {
       }
   }
 }
+
+
+/*1920 x 1080 ->  */
+@media screen and (min-width: 1600px){
+
+}
+
+
+/*1440 x 900 ->  */
+/*1366 x 768 ->  */
+/*1280 x 720 ->  */
+@media screen and (min-width: 1280px) and (max-width: 1599px) {
+
+  
+
+}
+
+
+/*1024 x 768 iPad -> */
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  section.menu{
+  .nav-bottom-container {
+    
+    a {
+      font-family: "Poppins", sans-serif;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 24px;
+      text-align: center;
+  }
+}
+}
+}
+
+
+/*768 x 1024 iPad -> */
+/*800 x 1280 Google Nexus -> */
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+  section.menu{
+    .nav-bottom-container {
+      
+      a {
+        font-family: "Poppins", sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 24px;
+        text-align: center;
+    }
+  }
+  }
+
+  }
+
+
+@media screen and (min-width: 640px) and (max-width: 767px){
+
+}
+
+
+
+@media screen and (min-width: 360px) and (max-width: 641px){}
