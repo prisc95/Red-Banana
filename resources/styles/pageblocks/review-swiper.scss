@@ -273,17 +273,19 @@ section.review-swiper {
           font-size: 14px;
         }
     }
+
+    .scroll-container {
+
+      .swiper-reviews-scrollbar {
+        width: 70%;
+        }
+      }
   }
 }
     
   }
 
-  .scroll-container {
-
-    .swiper-reviews-scrollbar {
-      width: 75%;
-      }
-    }
+ 
 }
 
 
