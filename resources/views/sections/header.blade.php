@@ -42,6 +42,28 @@
             <a href="">Contact</a>
         </div>
     </div>
+
+    <div class="nav-bottom-container-phones">
+
+    <div class="dropdown" id="dropdown">
+        <span><i class="fa-solid fa-bars fa-xl" id="fa-bars"></i></span>
+        <div class="dropdown-content" id="dropdown-content">
+          <a href="#" class="nav-text">Apple accessoires</a>
+          <a href="#" class="nav-text">Samsung accessoires</a>
+          <a href="#" class="nav-text">Huawei accessoires</a>
+          <a href="#" class="nav-text">Overige accessoires</a>
+          <a href="#" class="nav-text">Reparatie</a>
+          <a href="#" class="nav-text">Blog</a>
+          <a href="#" class="nav-text">Contact</a>
+        </div>
+    </div>
+
+    <div class="searchbar">
+        <input type="text" placeholder="Waar ben je naar op zoek?" name="searchbar">
+        <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+    </div>
+</div>
+
 </section>
 
   @if (has_nav_menu('primary_navigation'))
