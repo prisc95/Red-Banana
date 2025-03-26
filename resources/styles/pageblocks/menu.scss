@@ -204,17 +204,47 @@ section.menu {
 /*800 x 1280 Google Nexus -> */
 @media screen and (min-width: 767px) and (max-width: 1023px) {
   section.menu{
+
+    .nav-top-container{
+    
+        .nav-top-center > input {
+            width: 55%;
+        }
+    
+      .nav-top-right {
+
+        .nav-top-right-item-1 {
+
+          img {
+            width: 14px;
+            height: 14px;
+        }
+        }
+
+        .nav-top-right-item-2,
+        .nav-top-right-item-3 {
+
+
+          img {
+            width: 12px;
+            height: 14px;
+        }
+        }
+  }
+}
+
     .nav-bottom-container {
       
       a {
         font-family: "Poppins", sans-serif;
-        font-size: 14px;
+        font-size: 10px;
         font-weight: 500;
         line-height: 24px;
         text-align: center;
     }
   }
   }
+
 
   }
 
