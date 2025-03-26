@@ -145,22 +145,70 @@ section.photo-grid {
 
 @media screen and (min-width: 640px) and (max-width: 767px){
     section.photo-grid {
-        .photo-grid-gallery {
-            
-          .photo-grid-images {
+      .photo-grid-container {
+        width: 90%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
     
-            p {
-            font-family: "Poppins", sans-serif;
-            font-size: 24px;
-            line-height: 30px;
-            }
-          }
-        } 
+        h2 {
+          font-family: "Poppins", sans-serif;
+          font-size: 28px;
+          font-weight: 700;
+          line-height: 29px;
+      }
+    }
+    
+    
+    
+    .photo-grid-gallery {
+        display: flex;
+        flex-direction: column;
+  
+        .photo-grid-images {
+  
+        p {
+          font-size: 24px;
+        }
+      }
+    }
     }
 }
 
 
 
-@media screen and (min-width: 360px) and (max-width: 641px){}
+@media screen and (min-width: 360px) and (max-width: 641px){
+  section.photo-grid {
+   
+  .photo-grid-container {
+      width: 90%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+  
+      h2 {
+        font-family: "Poppins", sans-serif;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 29px;
+    }
+  }
+  
+  
+  
+  .photo-grid-gallery {
+      display: flex;
+      flex-direction: column;
+
+      .photo-grid-images {
+
+      p {
+        font-size: 24px;
+      }
+    }
+  }
+}}
   
   
