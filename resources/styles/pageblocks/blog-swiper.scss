@@ -129,3 +129,57 @@ a {
 
     }
 }
+
+/*1920 x 1080 ->  */
+@media screen and (min-width: 1600px){
+
+}
+
+
+/*1440 x 900 ->  */
+/*1366 x 768 ->  */
+/*1280 x 720 ->  */
+@media screen and (min-width: 1280px) and (max-width: 1599px) {
+
+  
+
+}
+
+
+/*1024 x 768 iPad -> */
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+
+}
+
+
+/*768 x 1024 iPad -> */
+/*800 x 1280 Google Nexus -> */
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+  section.swiper-blog {
+
+    .container{
+        
+  .swiper-slide {
+
+ p {
+    font-size: 14px;
+  }
+
+a {
+    font-size: 14px;
+  }
+  }
+    }
+  }
+}
+
+
+@media screen and (min-width: 640px) and (max-width: 767px){
+
+}
+
+
+
+@media screen and (min-width: 360px) and (max-width: 641px){
+
+}
