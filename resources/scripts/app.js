@@ -1,6 +1,8 @@
 import './pageblocks/products-swiper';
 import './pageblocks/review-swiper';
 import './pageblocks/blog-swiper';
+import './pageblocks/menu';
+
 import domReady from '@roots/sage/client/dom-ready'; 
 
 
