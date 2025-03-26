@@ -294,9 +294,64 @@ section.review-swiper {
 /*768 x 1024 iPad -> */
 /*800 x 1280 Google Nexus -> */
 @media screen and (min-width: 767px) and (max-width: 1023px) {
+  section.review-swiper {
+  .container {
+    .left{
+      display: flex;
+      flex-basis: 35%;
 
+    h2{
+      padding-left: 10px;
+      padding-right: 10px;
+      font-size: 24px;
+  }
+
+  .score-main {
+      gap: 20px;
+  
+      p {
+        font-size: 30px;
+
+      }
+}
+  
+  .score-footer {
+      font-size: 16px;
+  }
+}
+}
+    
+    .right{
+      width: 60%;
+
+  .swiper-reviews {
+
+    img {
+      width: 90px;
+      height: 14px;
     }
 
+    .swiper-slide {
+      width: 48% !important;
+
+      p {
+          font-size: 14px;
+        }
+    }
+  }
+}
+
+.scroll-container {
+
+  .swiper-reviews-scrollbar {
+    width: 60%;
+    }
+  }
+    
+  }
+
+  
+}
 
 @media screen and (min-width: 640px) and (max-width: 767px){
 
