@@ -146,8 +146,9 @@ section.photo-grid {
 
 
 @media screen and (min-width: 640px) and (max-width: 767px){
-    section.photo-grid {
-      .photo-grid-container {
+  section.photo-grid {
+   
+    .photo-grid-container {
         width: 90%;
         height: 100%;
         display: flex;
@@ -160,7 +161,6 @@ section.photo-grid {
           font-weight: 700;
           line-height: 29px;
       }
-    }
     
     
     
@@ -175,8 +175,8 @@ section.photo-grid {
         }
       }
     }
-    }
-}
+  }
+  }}
 
 
 
@@ -196,7 +196,6 @@ section.photo-grid {
         font-weight: 700;
         line-height: 29px;
     }
-  }
   
   
   
@@ -211,6 +210,7 @@ section.photo-grid {
       }
     }
   }
+}
 }}
   
   
