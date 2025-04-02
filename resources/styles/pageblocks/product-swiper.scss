@@ -305,7 +305,6 @@ section.product-swiper {
   section.product-swiper {
 
     .swiper-container{
-      padding: 100px;
 
         .swiper {
     
@@ -330,6 +329,14 @@ section.product-swiper {
             width: 95% !important;
             }
           }
+        }
+
+        .scroll-container {
+      
+        .swiper-products-scrollbar {
+          width: 45%;
+          }
+        
         }
       }
 }
