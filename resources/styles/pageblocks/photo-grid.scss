@@ -2,7 +2,7 @@
 
 section.photo-grid {
     position: relative;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -11,10 +11,11 @@ section.photo-grid {
     margin-bottom: 100px;
    
   .photo-grid-container {
-      width: 90%;
-      height: 100%;
+
       display: flex;
       flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
       gap: 25px;
   
       h2 {
@@ -23,7 +24,7 @@ section.photo-grid {
         font-weight: 700;
         line-height: 29px;
     }
-  }
+  
   
   
   
@@ -33,7 +34,7 @@ section.photo-grid {
       height: 100%;
       grid-gap: 10px;
       grid-template-rows: repeat(4, 20vh); 
-      grid-template-columns: repeat(6, 14vw);
+      grid-template-columns: repeat(6, 13vw);
   
       .row-2 {
         grid-row: span 2;
@@ -99,6 +100,7 @@ section.photo-grid {
       color: #FFFFFF; 
     }
   } 
+}
 }
 }
 
