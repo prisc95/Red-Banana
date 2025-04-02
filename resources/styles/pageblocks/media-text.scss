@@ -16,6 +16,7 @@ section.media-text {
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+    gap: 20px;
 
   .media {
     display: flex;
@@ -122,44 +123,34 @@ section.media-text {
 /*768 x 1024 iPad -> */
 /*800 x 1280 Google Nexus -> */
 @media screen and (min-width: 767px) and (max-width: 1023px) {
-
   section.media-text {
 
+   
+
   .container{
+    flex-direction: column;
+    
+
 
   .media {
+    flex-basis: 90%;
 
-    .img1{
-        height: 60%;
-    
-      }
-    
-      .img2 {
-        height: 35%;
+    .img1 {
+      width: 80%;
+    }
 
-      }
+    .img2 {
+      width: 40%;
+      height: 50%;
+
+    }
   }
 
  
 
   .text {
-    padding-left: 20px;
-    padding-right: 20px;
-
-    h2 {
-        font-size: 30px;
-      }
-    
-      p {
-        font-size: 13px;
-      }
-
-      button {
-        width: 50%;
-        height: 10%;
-        font-size: 12px;
-
-      }
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
 }}
@@ -167,11 +158,95 @@ section.media-text {
 
 
 @media screen and (min-width: 640px) and (max-width: 767px){
+  section.media-text {
+    height: auto;
 
-}
+   
+
+    .container{
+      height: auto;
+      flex-direction: column;
+      
+  
+  
+    .media {
+      flex-basis: 90%;
+  
+      .img1 {
+        width: 80%;
+      }
+  
+      .img2 {
+        width: 30%;
+        height: 35%;
+        right: 18%;
+
+  
+      }
+    }
+  
+   
+  
+    .text {
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+  
+  }}
+      }
+
 
 
 
 @media screen and (min-width: 360px) and (max-width: 641px){
+  section.media-text {
+    height: auto;
 
-}
+   
+
+    .container{
+      height: auto;
+      flex-direction: column;
+      
+  
+  
+    .media {
+      flex-basis: 90%;
+  
+      .img1 {
+        width: 80%;
+      }
+  
+      .img2 {
+        width: 30%;
+        height: 35%;
+        right: 18%;
+
+  
+      }
+    }
+  
+   
+  
+    .text {
+      padding-left: 0px;
+      padding-right: 0px;
+
+      h2 {
+        font-size: 26px;
+    
+      }
+    
+      p {
+        font-size: 13px;
+
+      }
+
+      button {
+        font-size: 13px;
+
+      }
+    }
+  
+  }}
+      }
