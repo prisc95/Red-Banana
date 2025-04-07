@@ -298,6 +298,16 @@ section.product-swiper {
             }
           }
         }
+
+        .scroll-container {
+          top: -12%;
+          bottom: auto;
+      
+        .swiper-products-scrollbar {
+          width: 45%;
+          }
+        
+        }
       }
     }
 
@@ -313,6 +323,16 @@ section.product-swiper {
             width: 30% !important;
             }
           }
+        }
+
+        .scroll-container {
+          top: -12%;
+          bottom: auto;
+      
+        .swiper-products-scrollbar {
+          width: 45%;
+          }
+        
         }
       }
 }
@@ -333,6 +353,8 @@ section.product-swiper {
         }
 
         .scroll-container {
+          top: -12%;
+          bottom: auto;
       
         .swiper-products-scrollbar {
           width: 45%;
