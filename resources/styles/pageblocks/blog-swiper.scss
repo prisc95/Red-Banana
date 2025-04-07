@@ -6,13 +6,12 @@ section.swiper-blog {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
-    width: 100%;
+    align-items: center;
+    width: 100vw;
     padding-top: 100px;
     padding-bottom: 50px;
 
     .container{
-        max-width: 150%;
         width: 90%;
 
         display: flex;
@@ -215,8 +214,16 @@ a {
   section.swiper-blog {
 
     .container{
+
+      .swiper {
+        width: 100% !important;
+
+        .swiper-wrapper {
+          width: 100% !important;
+        
         
   .swiper-slide {
+    width: 100% !important;
 
  p {
     font-size: 10px;
@@ -226,13 +233,18 @@ a {
     font-size: 10px;
   }
   }
+}
+      }
+
 
   .blog-scroll-container {
- 
+    width: 100% !important;
+
   .swiper-blog-scrollbar {
-      width: 40%;
+      width: 50%;
       }
   }
-    }
+    
   }
+}
 }

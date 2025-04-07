@@ -12,6 +12,10 @@ var swiper3 = new Swiper(".blogSwiper", {
       prevEl: ".blog-scroll-icon-left",
     },
     breakpoints: {
+      360: {
+        slidesPerView: 1,
+        spaceBetween: 10,
+      },
       640: {
         slidesPerView: 2,
         spaceBetween: 20,
