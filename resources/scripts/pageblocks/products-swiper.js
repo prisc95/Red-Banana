@@ -12,6 +12,10 @@ var swiper1 = new Swiper(".productSwiper", {
       prevEl: ".products-scroll-icon-left",
     },
     breakpoints: {
+      360: {
+        slidesPerView: 1,
+        spaceBetween: 10,
+      },
       640: {
         slidesPerView: 2,
         spaceBetween: 20,
