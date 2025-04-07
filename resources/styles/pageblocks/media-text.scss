@@ -2,7 +2,7 @@ section.media-text {
     position: relative;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     width: 100vw;
     height: 100vh;
@@ -20,14 +20,14 @@ section.media-text {
 
   .media {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     flex-basis: 50%;
     height: 100%;
   
 
     .img1{
-        width: 80%;
+        width: 500px;
         height: 80%;
         border-radius: 10px;
         z-index: 0;
@@ -36,7 +36,7 @@ section.media-text {
     
       .img2 {
         position: relative;
-        width: 40%;
+        width: 200px;
         height: 50%;
         border: 5px solid white;
         border-radius: 10px;
@@ -77,7 +77,7 @@ section.media-text {
 
       button {
         width: 50%;
-        height: 10%;
+        height: 75px;
         border-radius: 10px;
         border: none;
         background-color: #FE3E31;
@@ -115,45 +115,62 @@ section.media-text {
 
 
 /*1024 x 768 iPad -> */
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+  section.media-text {
+    .container {
+      .media {
 
+        .img1 {
+          width: 400px;
+        }
+
+        .img2 {
+          width: 180px;
+        }
+      }
+    }
+  }
 }
 
 
 /*768 x 1024 iPad -> */
 /*800 x 1280 Google Nexus -> */
-@media screen and (min-width: 767px) and (max-width: 1023px) {
+@media screen and (min-width: 767px) and (max-width: 1024px) {
   section.media-text {
+    height: auto;
 
    
 
-  .container{
-    flex-direction: column;
-    
+    .container{
+      height: auto;
+      flex-direction: column;
+      
+  
+  
+    .media {
+      flex-basis: 90%;
+  
+      .img1 {
+        width: 80%;
+      }
+  
+      .img2 {
+        width: 30%;
+        height: 35%;
+        right: 18%;
 
-
-  .media {
-    flex-basis: 90%;
-
-    .img1 {
-      width: 80%;
+  
+      }
     }
-
-    .img2 {
-      width: 40%;
-      height: 50%;
-
+  
+   
+  
+    .text {
+      padding-left: 0px;
+      padding-right: 0px;
     }
-  }
-
- 
-
-  .text {
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-
-}}
+  
+  }}
     }
 
 
@@ -198,7 +215,7 @@ section.media-text {
 
 
 
-@media screen and (min-width: 360px) and (max-width: 641px){
+@media screen and (min-width: 360px) and (max-width: 640px){
   section.media-text {
     height: auto;
 
